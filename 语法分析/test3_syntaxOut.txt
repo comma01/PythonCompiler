@@ -1,0 +1,14 @@
+False
+There is a lexical error('Thread1#') in line 1!
+False
+There is a lexical error('+>') in line 23!
+False
+There is a lexical error('.01') in line 34!
+False
+A ';' is wanted in line 42!
+False
+The 'identifier' is not what we wanted in line 49!
+False
+The 'event' is not what we wanted in line 56!
+False
+The 'thread' is not what we wanted in line 63!
