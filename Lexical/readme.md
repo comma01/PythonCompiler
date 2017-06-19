@@ -1,16 +1,16 @@
 ## 词法规则
 
-###1. 语言的关键字18个:
+### 1. 语言的关键字18个:
 
 **thread, features,  flows,  properties, end,  none,  in, out, data, port,  event,  parameter, flow ,  source, sink, path, constant , access**
 
 **注：关键字是保留字，并且必须是小写。**
 
-###2. 语言的专用符号8个:
+### 2. 语言的专用符号8个:
 
 **=> +=>  ;   :  ::  {  }   ->**
 
-###3. 标示符identifier和浮点数decimal的词法规则通过下列正则表达式定义:
+### 3. 标示符identifier和浮点数decimal的词法规则通过下列正则表达式定义:
 
 ```
 identifier =identifier_letter (underline?letter_or_digit)*
@@ -36,7 +36,7 @@ dot = .
 ```
 operator = => | +=> | ; | : | :: | {| } | ->
 ```
-###4. 空白、换行符和制表符在词法分析时忽略掉。
+### 4. 空白、换行符和制表符在词法分析时忽略掉。
 
 1. 本程序使用python3实现，要运行请先安装python3环境
 2. LexicalAnalysis.py为主函数
