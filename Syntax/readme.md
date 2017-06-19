@@ -5,11 +5,11 @@
 
 对文法进行了相应的变形和改写，改写的结果如下：
 
-Thread --> **thread ** **identifier** \[**features** feature\] \[ **flows **flow_spec \] \[**properties** association**; **\] **end ** **identifier**  **;**
+Thread --> **thread** **identifier** \[**features** feature\] \[**flows** flow_spec \] \[**properties** association **;**\] **end** **identifier**  **;**
 
-feature--> **none** **; **
+feature--> **none** **;**
 
-feature-->  **identifier ** **:** IOtype port_spec|Parameter
+feature-->  **identifier** **:** IOtype port_spec|Parameter
 
 port_spec --> port_type [ **{** { association } **}**] **;**
 
@@ -19,7 +19,7 @@ Parameter --> **parameter** \[reference \][ **{** { association } **}** ] **;**
 
 IOtype--> **in** | **out** | **in out** 
 
-flow_spec --> **identifier ** **:** **flow **flow_source_spec| flow_sink_spec| flow_path_spec| **none** **;**
+flow_spec --> **identifier** **:** **flow** flow_source_spec| flow_sink_spec| flow_path_spec| **none** **;**
 
 flow_source_spec --> **source** **identifier**[ **{** { association } **}** ] **;**
 
@@ -31,35 +31,41 @@ association -->[ **identifier** **::** ] **identifier** splitter [ **constant**]
 
 splitter--> **=>** | **+=>** 
 
-reference --> { **identifier ::** }  **identifier** (**id :: id ::id :: ………..**)
+reference --> { **identifier ::** }  **identifier** (**id :: id ::id :: ………**)
 
 相应的抽象语法树如下：
 
+<<<<<<< HEAD
 <img src="https://github.com/comma01/PythonCompiler/blob/master/Syntax/SyntaxTree/Thread.png">
 
 ![association](https://github.com/comma01/PythonCompiler/blob/master/Syntax/SyntaxTree/association.png)
+=======
+![Thread](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/Thread.png)
 
-![feature](.\SyntaxTree\feature.png)
+![association](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/association.png)
+>>>>>>> origin/master
 
-![flow_path_spec](.\SyntaxTree\flow_path_spec.png)
+![feature](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/feature.png)
 
-![flow_sink_spec](.\SyntaxTree\flow_sink_spec.png)
+![flow_path_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_path_spec.png)
 
-![flow_source_spec](.\SyntaxTree\flow_source_spec.png)
+![flow_sink_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_sink_spec.png)
 
-![flow_spec](.\SyntaxTree\flow_spec.png)
+![flow_source_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_source_spec.png)
 
-![IOtype](.\SyntaxTree\IOtype.png)
+![flow_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_spec.png)
 
-![flow_path_spec](.\SyntaxTree\flow_path_spec.png)
+![IOtype](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/IOtype.png)
 
-![Parameter](.\SyntaxTree\Parameter.png)
+![flow_path_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_path_spec.png)
 
-![port_spec](.\SyntaxTree\port_spec.png)
+![Parameter](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/Parameter.png)
 
-![port_type](.\SyntaxTree\port_type.png)
+![port_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/port_spec.png)
 
-![reference](.\SyntaxTree\reference.png)
+![port_type](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/port_type.png)
 
-![splitter](.\SyntaxTree\splitter.png)
+![reference](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/reference.png)
+
+![splitter](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/splitter.png)
 
