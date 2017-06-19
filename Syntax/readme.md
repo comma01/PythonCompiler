@@ -5,11 +5,11 @@
 
 对文法进行了相应的变形和改写，改写的结果如下：
 
-Thread --> **thread ** **identifier** \[**features** feature\] \[ **flows **flow_spec \] \[**properties** association**; **\] **end ** **identifier**  **;**
+Thread --> **thread** **identifier** \[**features** feature\] \[**flows** flow_spec \] \[**properties** association **;**\] **end** **identifier**  **;**
 
-feature--> **none** **; **
+feature--> **none** **;**
 
-feature-->  **identifier ** **:** IOtype port_spec|Parameter
+feature-->  **identifier** **:** IOtype port_spec|Parameter
 
 port_spec --> port_type [ **{** { association } **}**] **;**
 
@@ -19,7 +19,7 @@ Parameter --> **parameter** \[reference \][ **{** { association } **}** ] **;**
 
 IOtype--> **in** | **out** | **in out** 
 
-flow_spec --> **identifier ** **:** **flow **flow_source_spec| flow_sink_spec| flow_path_spec| **none** **;**
+flow_spec --> **identifier** **:** **flow** flow_source_spec| flow_sink_spec| flow_path_spec| **none** **;**
 
 flow_source_spec --> **source** **identifier**[ **{** { association } **}** ] **;**
 
@@ -31,7 +31,7 @@ association -->[ **identifier** **::** ] **identifier** splitter [ **constant**]
 
 splitter--> **=>** | **+=>** 
 
-reference --> { **identifier ::** }  **identifier** (**id :: id ::id :: ………..**)
+reference --> { **identifier ::** }  **identifier** (**id :: id ::id :: ………**)
 
 相应的抽象语法树如下：
 
