@@ -2,7 +2,7 @@
 ### 	本程序使用python2.7编写，SyntaxExcute.py为语法分析主程序，LexicalAnalysis.py与LexicalExcute.py为生成输入的词法分析程序，运行的话请安装python2.7环境以及第三方库pygraphviz
 
 
-
+## 语法规则
 对文法进行了相应的变形和改写，改写的结果如下：
 
 Thread --> **thread** **identifier** \[**features** feature\] \[**flows** flow_spec \] \[**properties** association **;**\] **end** **identifier**  **;**
@@ -34,16 +34,13 @@ splitter--> **=>** | **+=>**
 reference --> { **identifier ::** }  **identifier** (**id :: id ::id :: ………**)
 
 相应的抽象语法树如下：
-
-<<<<<<< HEAD
-<img src="https://github.com/comma01/PythonCompiler/blob/master/Syntax/SyntaxTree/Thread.png">
+![Thread]("https://github.com/comma01/PythonCompiler/blob/master/Syntax/SyntaxTree/Thread.png")
 
 ![association](https://github.com/comma01/PythonCompiler/blob/master/Syntax/SyntaxTree/association.png)
-=======
+
 ![Thread](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/Thread.png)
 
 ![association](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/association.png)
->>>>>>> origin/master
 
 ![feature](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/feature.png)
 
