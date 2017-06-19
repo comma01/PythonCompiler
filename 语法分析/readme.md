@@ -35,7 +35,7 @@ reference --> { **identifier ::** }  **identifier** (**id :: id ::id :: ……�
 
 相应的抽象语法树如下：
 
-![Thread](.\SyntaxTree\Thread.png)
+![Thread](https://github.com/comma01/PythonCompiler/tree/master/%E8%AF%AD%E6%B3%95%E5%88%86%E6%9E%90/SyntaxTree/Thread.png)
 
 ![association](.\SyntaxTree\association.png)
 
