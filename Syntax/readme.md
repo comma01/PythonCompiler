@@ -35,31 +35,31 @@ reference --> { **identifier ::** }  **identifier** (**id :: id ::id :: ……�
 
 相应的抽象语法树如下：
 
-![Thread](https://github.com/comma01/PythonCompiler/tree/master/Syntax/SyntaxTree/Thread.png)
+![Thread](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/Thread.png)
 
-![association](https://github.com/comma01/PythonCompiler/tree/master/Syntax/SyntaxTree/association.png)
+![association](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/association.png)
 
-![feature](.\SyntaxTree\feature.png)
+![feature](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/feature.png)
 
-![flow_path_spec](.\SyntaxTree\flow_path_spec.png)
+![flow_path_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_path_spec.png)
 
-![flow_sink_spec](.\SyntaxTree\flow_sink_spec.png)
+![flow_sink_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_sink_spec.png)
 
-![flow_source_spec](.\SyntaxTree\flow_source_spec.png)
+![flow_source_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_source_spec.png)
 
-![flow_spec](.\SyntaxTree\flow_spec.png)
+![flow_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_spec.png)
 
-![IOtype](.\SyntaxTree\IOtype.png)
+![IOtype](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/IOtype.png)
 
-![flow_path_spec](.\SyntaxTree\flow_path_spec.png)
+![flow_path_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/flow_path_spec.png)
 
-![Parameter](.\SyntaxTree\Parameter.png)
+![Parameter](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/Parameter.png)
 
-![port_spec](.\SyntaxTree\port_spec.png)
+![port_spec](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/port_spec.png)
 
-![port_type](.\SyntaxTree\port_type.png)
+![port_type](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/port_type.png)
 
-![reference](.\SyntaxTree\reference.png)
+![reference](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/reference.png)
 
-![splitter](.\SyntaxTree\splitter.png)
+![splitter](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/splitter.png)
 
