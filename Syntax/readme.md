@@ -34,10 +34,6 @@ splitter--> **=>** | **+=>**
 reference --> { **identifier ::** }  **identifier** (**id :: id ::id :: ………**)
 
 相应的抽象语法树如下：
-![Thread]("https://github.com/comma01/PythonCompiler/blob/master/Syntax/SyntaxTree/Thread.png")
-
-![association](https://github.com/comma01/PythonCompiler/blob/master/Syntax/SyntaxTree/association.png)
-
 ![Thread](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/Thread.png)
 
 ![association](https://raw.githubusercontent.com/comma01/PythonCompiler/master/Syntax/SyntaxTree/association.png)
