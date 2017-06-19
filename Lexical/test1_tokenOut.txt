@@ -1,0 +1,407 @@
+Line 1:
+    Correct:
+        [KEYWORD, thread]
+        [IDENTIFIER, Thread1]
+    Error:
+
+Line 2:
+    Correct:
+        [KEYWORD, features]
+    Error:
+
+Line 3:
+    Correct:
+        [IDENTIFIER, AP_Position_Input]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, in]
+        [KEYWORD, event]
+        [KEYWORD, data]
+        [KEYWORD, port]
+        [IDENTIFIER, Nav_Types]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, Position_GPS]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 4:
+    Correct:
+        [KEYWORD, flows]
+    Error:
+
+Line 5:
+    Correct:
+        [IDENTIFIER, flow1]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, flow]
+        [KEYWORD, path]
+        [IDENTIFIER, signal]
+        [SPECIALSYMBOL, ->]
+        [IDENTIFIER, result1]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 6:
+    Correct:
+        [KEYWORD, properties]
+    Error:
+
+Line 7:
+    Correct:
+        [IDENTIFIER, dispatch_protocol]
+        [SPECIALSYMBOL, =>]
+        [KEYWORD, access]
+        [DECIMAL, 50.0]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 8:
+    Correct:
+        [KEYWORD, end]
+        [IDENTIFIER, Thread1]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 10:
+    Correct:
+        [KEYWORD, thread]
+        [IDENTIFIER, Thread_2]
+    Error:
+
+Line 11:
+    Correct:
+        [KEYWORD, features]
+    Error:
+
+Line 12:
+    Correct:
+        [IDENTIFIER, AP_Position_Input]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, in]
+        [KEYWORD, data]
+        [KEYWORD, port]
+        [IDENTIFIER, Nav_Types1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, Nav_Types2]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, Position_GPS]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 13:
+    Correct:
+        [KEYWORD, flows]
+    Error:
+
+Line 14:
+    Correct:
+        [IDENTIFIER, flow1]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, flow]
+        [KEYWORD, source]
+        [IDENTIFIER, signal]
+        [SPECIALSYMBOL, {]
+        [IDENTIFIER, result1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, result2]
+        [SPECIALSYMBOL, +=>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, 50.0]
+        [SPECIALSYMBOL, }]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 15:
+    Correct:
+        [KEYWORD, properties]
+    Error:
+
+Line 16:
+    Correct:
+        [KEYWORD, none]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 17:
+    Correct:
+        [KEYWORD, end]
+        [IDENTIFIER, Thread_2]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 19:
+    Correct:
+        [KEYWORD, thread]
+        [IDENTIFIER, Thread3d]
+    Error:
+
+Line 20:
+    Correct:
+        [KEYWORD, features]
+    Error:
+
+Line 21:
+    Correct:
+        [IDENTIFIER, AP_Position_Input]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, out]
+        [KEYWORD, data]
+        [KEYWORD, port]
+        [IDENTIFIER, Nav_Types1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, Nav_Types2]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, Position_GPS]
+        [SPECIALSYMBOL, {]
+        [IDENTIFIER, result1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, result2]
+        [SPECIALSYMBOL, +=>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, 50.0]
+        [SPECIALSYMBOL, }]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 22:
+    Correct:
+        [KEYWORD, flows]
+    Error:
+
+Line 23:
+    Correct:
+        [IDENTIFIER, flow1]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, flow]
+        [KEYWORD, sink]
+        [IDENTIFIER, signal]
+        [SPECIALSYMBOL, {]
+        [IDENTIFIER, result1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, result2]
+        [SPECIALSYMBOL, +=>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, 50.0]
+        [SPECIALSYMBOL, }]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 24:
+    Correct:
+        [KEYWORD, properties]
+    Error:
+
+Line 25:
+    Correct:
+        [IDENTIFIER, size]
+        [SPECIALSYMBOL, =>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, +50.0]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 26:
+    Correct:
+        [KEYWORD, end]
+        [IDENTIFIER, Thread3d]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 28:
+    Correct:
+        [KEYWORD, thread]
+        [IDENTIFIER, Thread4]
+    Error:
+
+Line 29:
+    Correct:
+        [KEYWORD, features]
+    Error:
+
+Line 30:
+    Correct:
+        [IDENTIFIER, AP_Position_Input]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, in]
+        [KEYWORD, out]
+        [KEYWORD, parameter]
+        [IDENTIFIER, Nav_Types1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, Nav_Types2]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, Position_GPS]
+        [SPECIALSYMBOL, {]
+        [IDENTIFIER, result1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, result2]
+        [SPECIALSYMBOL, =>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, 50.0]
+        [SPECIALSYMBOL, }]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 31:
+    Correct:
+        [KEYWORD, flows]
+    Error:
+
+Line 32:
+    Correct:
+        [IDENTIFIER, flow1]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, flow]
+        [KEYWORD, sink]
+        [IDENTIFIER, signal]
+        [SPECIALSYMBOL, {]
+        [IDENTIFIER, result1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, result2]
+        [SPECIALSYMBOL, +=>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, 50.0]
+        [SPECIALSYMBOL, }]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 33:
+    Correct:
+        [KEYWORD, properties]
+    Error:
+
+Line 34:
+    Correct:
+        [IDENTIFIER, size]
+        [SPECIALSYMBOL, =>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, -50.0]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 35:
+    Correct:
+        [KEYWORD, end]
+        [IDENTIFIER, Thread4]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 37:
+    Correct:
+        [KEYWORD, thread]
+        [IDENTIFIER, Thread5]
+    Error:
+
+Line 38:
+    Correct:
+        [KEYWORD, features]
+    Error:
+
+Line 39:
+    Correct:
+        [IDENTIFIER, AP_Position_Input]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, in]
+        [KEYWORD, out]
+        [KEYWORD, event]
+        [KEYWORD, port]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 40:
+    Correct:
+        [KEYWORD, flows]
+    Error:
+
+Line 41:
+    Correct:
+        [IDENTIFIER, flow1]
+        [SPECIALSYMBOL, :]
+        [KEYWORD, flow]
+        [KEYWORD, sink]
+        [IDENTIFIER, signal]
+        [SPECIALSYMBOL, {]
+        [IDENTIFIER, result1]
+        [SPECIALSYMBOL, ::]
+        [IDENTIFIER, result2]
+        [SPECIALSYMBOL, +=>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, 50.0]
+        [SPECIALSYMBOL, }]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 42:
+    Correct:
+        [KEYWORD, properties]
+    Error:
+
+Line 43:
+    Correct:
+        [IDENTIFIER, size]
+        [SPECIALSYMBOL, =>]
+        [KEYWORD, constant]
+        [KEYWORD, access]
+        [DECIMAL, 50.0]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 44:
+    Correct:
+        [KEYWORD, end]
+        [IDENTIFIER, Thread5]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 46:
+    Correct:
+        [KEYWORD, thread]
+        [IDENTIFIER, Thread6]
+    Error:
+
+Line 47:
+    Correct:
+        [KEYWORD, features]
+    Error:
+
+Line 48:
+    Correct:
+        [KEYWORD, none]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 49:
+    Correct:
+        [KEYWORD, flows]
+    Error:
+
+Line 50:
+    Correct:
+        [KEYWORD, none]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 51:
+    Correct:
+        [KEYWORD, properties]
+    Error:
+
+Line 52:
+    Correct:
+        [KEYWORD, none]
+        [SPECIALSYMBOL, ;]
+    Error:
+
+Line 53:
+    Correct:
+        [KEYWORD, end]
+        [IDENTIFIER, Thread6]
+        [SPECIALSYMBOL, ;]
+    Error:
+
